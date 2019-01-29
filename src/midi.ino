@@ -107,7 +107,7 @@ int potMeterArray[7];
  * serial Data from the shift register chips and representing
  * the state of those pins in an unsigned integer (or long).
  */
-BYTES_VAL_T read_shift_regs(int Ingang)
+BYTES_VAL_T read_shift_regs(int Input)
 {
     byte bitVal;
     BYTES_VAL_T bytesVal = 0;
@@ -120,7 +120,7 @@ BYTES_VAL_T read_shift_regs(int Ingang)
     /* Loop to read each bit value from the serial out line of the SN74HC165N */
     for(int i = 0; i < DATA_WIDTH; i++)
     {
-        bitVal = digitalRead(Ingang);
+        bitVal = digitalRead(Input);
 
 
         /* Set the corresponding bit in bytesVal */
