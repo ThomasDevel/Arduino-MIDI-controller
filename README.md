@@ -16,9 +16,9 @@ the signals.
 # Additional Software
 A list of the necessary software used in this project.
 
-- [Arduino IDE] (https://www.arduino.cc/en/main/software)
-- [loopMIDI] (https://www.tobias-erichsen.de/software/loopmidi.html)
-- [Hairless-MIDI] (http://projectgus.github.io/hairless-midiserial/)
+- [Arduino IDE](https://www.arduino.cc/en/main/software)
+- [loopMIDI](https://www.tobias-erichsen.de/software/loopmidi.html)
+- [Hairless-MIDI](http://projectgus.github.io/hairless-midiserial/)
 
 Note: the software has been build and tested only for Windows.
 The Arduino IDE and the Hairless-MIDI are cross platform, so compilation on Linux and macOS
