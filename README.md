@@ -3,14 +3,13 @@ A MIDI controller implemented on Arduino
 
 ![Concept design](extras/controller.jpg "Concept for the eventual design of the controller")
 
-Using the Arduino MIDI library we can generate midi signals with a certain NOTE, VELOCITY and CHANNEL.
-
+Using the Arduino MIDI library we can generate midi signals with a certain NOTE, VELOCITY and CHANNEL.<br />
 These MIDI signals are transport over a MIDI cable. Our PC did not come with a MIDI port (although there
-are MIDI adapters available).
+are MIDI adapters available).<br />
 
 We use a virtual MIDI port, for example LoopMIDI. This creates a virtual loopback MIDI-port to interconnect applications on Windows that want to open hardware-MIDI-ports for communication.
 The MIDI signals that Arduino sends, go through the Hairless MIDI software to the virtual MIDI port.
-Hairless MIDI provides a MIDI to serial signal interface.
+Hairless MIDI provides a MIDI to serial signal interface.<br />
 A musical production tool (I am fan of Ableton) recognizes the virtual MIDI port and is able to process
 the signals.
 
