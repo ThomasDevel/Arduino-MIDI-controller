@@ -1,5 +1,0 @@
-Dit is een goede regel
-
-Dit is een slechte regel.
-
-Aanpassing
